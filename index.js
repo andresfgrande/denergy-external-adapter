@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the energy price adapter API! To access the energy price data, make a POST request to /energy-price.');
+  res.send('Welcome to the energy price adapter API! To access the energy price data, make a GET request to /energy-price.');
 });
 
 app.get('/energy-price', async (req, res) => {
