@@ -6,6 +6,10 @@ const app = express();
 // parse application/json
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the energy price adapter API! To access the energy price data, make a POST request to /energy-price.');
+});
+
 app.post('/', async (req, res) => {
   const jobRunID = req.body.id;
   const data = req.body.data;

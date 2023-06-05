@@ -2,8 +2,12 @@
   "name": "denergy-external-adapter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "denergy_adapter_v2.js",
+  "engines":{
+    "node": "18.12.0"
+  },
   "scripts": {
+    "start": "node denergy_adapter_v2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
