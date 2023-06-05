@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "denergy_adapter_v2",
-    "regions": ["ams"],
     "builds": [
       {
         "src": "./denergy_adapter_v2.js",
